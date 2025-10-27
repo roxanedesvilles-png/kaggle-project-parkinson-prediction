@@ -7,14 +7,14 @@ All analyses and model development were performed using **Python**, with librari
 
 ## 📊 Data Exploration
 
-Conducted exploratory data analysis (EDA) to examine dataset structure and identify potential clusters or patterns.
+- Conducted exploratory data analysis (EDA) to examine dataset structure and identify potential clusters or patterns.
 
-Applied dimensionality reduction techniques such as **PCA and UMAP** to visualize groupings among samples.
+- Applied dimensionality reduction techniques such as **PCA and UMAP** to visualize groupings among samples.
 
 
 ## 🧹 Data Processing
 
-Handled missing values with two imputation strategies:
+Handled missing values with two imputation strategies :
 
 - Median imputation
 
@@ -25,9 +25,9 @@ The goal was to compare the effect of each method on model performance.
 
 ## 🤖 Model Development
 
-Multilayer Perceptron (MLP) neural network for capturing non-linear relationships.
+- Multilayer Perceptron (MLP) neural network for capturing non-linear relationships.
 
-Random Forest (RF) regressor as a robust baseline for noisy data and small sample sizes.
+- Random Forest (RF) regressor as a robust baseline for noisy data and small sample sizes.
 
 
 ## ⚠️ Observations
