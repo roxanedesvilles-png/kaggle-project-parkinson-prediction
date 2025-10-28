@@ -1,18 +1,18 @@
-# 🧠 Parkinson’s Disease Progression Prediction
+# Parkinson’s Disease Progression Prediction
 
 This project is based on the AMP® Parkinson’s Disease Progression Prediction (https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/overview) Kaggle competition.
 
 All analyses and model development were performed using **Python**, with libraries including **pandas, numpy, scikit-learn, Keras, TensorFlow, matplotlib, seaborn, and ydf**.
 
 
-## 📊 Data Exploration
+## Data Exploration
 
 - Conducted exploratory data analysis (EDA) to examine dataset structure and identify potential clusters or patterns.
 
 - Applied dimensionality reduction techniques such as **PCA and UMAP** to visualize groupings among samples.
 
 
-## 🧹 Data Processing
+## Data Processing
 
 Handled missing values with two imputation strategies :
 
@@ -30,14 +30,14 @@ The goal was to compare the effect of each method on model performance.
 - Random Forest (RF) regressor as a robust baseline for noisy data and small sample sizes.
 
 
-## ⚠️ Observations
+## Observations
 
 Identified a data leakage issue: imputation was performed before train-test split or cross-validation.
 
 The same problem was observed in subsequent strategies, highlighting the need for proper pipeline structuring.
 
 
-## 💬 Discussion
+##  Discussion
 
 Both models struggled due to high data noise and limited predictive signal.
 
@@ -46,7 +46,7 @@ Clinical data were sparse, further restricting model performance.
 Comparison with the competition winner’s strategy showed the importance of advanced feature engineering and data integration.
 
 
-## 🚀 Getting Started
+## Getting Started
 
 To run the notebook and reproduce results:
 
