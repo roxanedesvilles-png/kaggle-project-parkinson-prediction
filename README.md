@@ -23,7 +23,7 @@ Handled missing values with two imputation strategies :
 The goal was to compare the effect of each method on model performance.
 
 
-## 🤖 Model Development
+## Model Development
 
 - Multilayer Perceptron (MLP) neural network for capturing non-linear relationships.
 
