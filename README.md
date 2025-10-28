@@ -54,6 +54,6 @@ To run the notebook and reproduce results:
 
 2. Open Google Colab.
 
-3. Upload notebook.ipynb or open it directly from the repository.
+3. Upload Projet_Kaggle_DESVILLES_DUFOUR_IANCU_NABI.ipynb or open it directly from the repository.
 
 4. Run the cells sequentially — all required libraries (pandas, numpy, scikit-learn, TensorFlow, Keras, matplotlib, seaborn, ydf) are pre-installed on Colab.
